@@ -14,9 +14,10 @@ def find_duplicate(nums):
     nums.sort()
     previous_num = 'not a number'
     for num in nums:
-        if (type(num) == str or num < 0 or num == None or num == ''): return False
-        if(previous_num == num): 
+        if (type(num) == str or num < 0 or num is None or num == ""):
+            return False
+        if (previous_num == num):
             return previous_num
         previous_num = num
 
-    return False  
+    return False
