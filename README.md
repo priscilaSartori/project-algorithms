@@ -1,27 +1,47 @@
 <h1 align="center">Project Algorithms</h1>
 
 ## Descrição do Projeto
-<p align="center">
-
-  Soluções para os mais diversos problemas do dia a dia e otimização de algoritmos.
+<p>Soluções para os mais diversos problemas do dia a dia e otimização de algoritmos.</p>
 <br />
 
-Habilidades desenvolvidas
- - Lógica;
- - Capacidade de interpretação de problemas;
- - Capacidade de interpretação de um código legado;
- - Capacidade de otimizar a resolução de problemas e;
- - Resolver problemas/Otimizar algoritmos sob pressão.
+## Habilidades desenvolvidas
+<p>- Lógica;</p>
+<p>- Capacidade de interpretação de problemas;</p>
+<p>- Capacidade de interpretação de um código legado;</p>
+<p>- Capacidade de otimizar a resolução de problemas e;</p>
+<p>- Resolver problemas/Otimizar algoritmos sob pressão.</p>
 </p>
+<br />
 
-<hr>
-
+## Tecnologias utilizadas
 <div align="center">
 <img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/python-F7DF1E?style=for-the-badge&logo=python&logoColor=black"/>
-  
 </div>
+<br />
 
+## Como executar o projeto
+Siga as instruções abaixo para executar o projeto em sua máquina local:
+1. Clone este repositório utilizando o seguinte comando:
+   ```
+   git clone https://git@github.com:priscilaSartori/project-algorithms.git
+   ```
+2. Acesse o diretório do projeto:
+   ```
+   cd project-algorithms
+   ```
+3. Crie e ative o ambiente virtual para o projeto
+   ```
+   python3 -m venv .venv && source .venv/bin/activate
+   ```
+4. Instale as dependências:
+   ```
+   python3 -m pip install -r dev-requirements.txt
+   ```
+5. Execute os testes:
+   ```
+   python3 -m pytest
+   ```
 <br />
 
 ## Requisitos Obrigatórios
